@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

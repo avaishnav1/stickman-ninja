@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/Stickman_Ninja/CMakeFiles/ELF2UF2Build
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/Stickman_Ninja/CMakeFiles/ELF2UF2Build.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/Stickman_Ninja/CMakeFiles/ELF2UF2Build-complete.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/Stickman_Ninja/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/Stickman_Ninja/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/Stickman_Ninja/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/Stickman_Ninja/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/Stickman_Ninja/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/Stickman_Ninja/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+D:/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/FinalProject/build/Stickman_Ninja/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
