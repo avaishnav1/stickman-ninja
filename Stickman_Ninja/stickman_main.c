@@ -117,7 +117,7 @@ short game_state = 4;
 */
 bool run = 0;
 // Interrupt service routine
-void on_pwm_wrap() {
+void sensor_irq() {
 
     // Clear the interrupt flag that brought us here
     pwm_clear_irq(pwm_gpio_to_slice_num(5));
@@ -766,7 +766,7 @@ int main() {
     // and register our interrupt handler
     pwm_clear_irq(slice_num);
     pwm_set_irq_enabled(slice_num, true);
-    irq_set_exclusive_handler(PWM_IRQ_WRAP, on_pwm_wrap);
+    irq_set_exclusive_handler(PWM_IRQ_WRAP, sensor_irq);
     irq_set_enabled(PWM_IRQ_WRAP, true);
 	
 	// This section configures the period of the PWM signals
