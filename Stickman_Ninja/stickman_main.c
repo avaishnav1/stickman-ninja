@@ -115,9 +115,8 @@ short game_state = 4;
 4 = start screen
 5 = instruction screen
 */
-bool run = 0;
 // Interrupt service routine
-void on_pwm_wrap() {
+void sensor_irq() {
 
     // Clear the interrupt flag that brought us here
     pwm_clear_irq(pwm_gpio_to_slice_num(5));
@@ -181,8 +180,8 @@ void on_pwm_wrap() {
     PT_SEM_SIGNAL(pt, &vga_semaphore);
 }
 
-//core0 animation thread
-static PT_THREAD (protothread_anim0(struct pt *pt)) {
+//animation thread
+static PT_THREAD (protothread_anim1(struct pt *pt)) {
     // Mark beginning of thread
     PT_BEGIN(pt);
     // Variables for maintaining frame rate
@@ -229,8 +228,6 @@ static PT_THREAD (protothread_anim0(struct pt *pt)) {
 			writeString(winner_print);
 			PT_YIELD_usec(1000000);
 			game_state = 3;
-			run = 0;
-			
 		} else if(game_state == 1) {
 			setTextColor2(WHITE, BLACK); 
 			setCursor(200, 200); 
@@ -239,7 +236,6 @@ static PT_THREAD (protothread_anim0(struct pt *pt)) {
 			writeString(winner_print);
 			PT_YIELD_usec(1000000);
 			game_state = 3;
-			run = 0;
 		} else if(game_state == 2) {
 			
 			//horizontal line (ground)
@@ -675,37 +671,10 @@ static PT_THREAD (protothread_anim0(struct pt *pt)) {
   PT_END(pt);
 } // animation thread
 
-// Game Controls on core 0
-static PT_THREAD (protothread_game_controls(struct pt *pt)) {
-    // Mark beginning of thread
-    PT_BEGIN(pt);
-	static char accely0[40];
-    while(1) {
-		if(game_state == 0) {
-			setTextColor2(WHITE, BLACK); 
-			setCursor(25, 200); 
-			setTextSize(3);
-			sprintf(accely0, "Player 0 Wins!");
-			writeString(accely0);
-		} else if(game_state == 1) {
-			setTextColor2(WHITE, BLACK); 
-			setCursor(25, 200); 
-			setTextSize(3);
-			sprintf(accely0, "Player 1 Wins!");
-			writeString(accely0);
-		}
-		// NEVER exit while
-    } // END WHILE(1)
-  PT_END(pt);
-} // animation thread
-
-
 
 // Entry point for core 1
 void core1_entry() {
-    //pt_add_thread(protothread_vga) ;
-	pt_add_thread(protothread_anim0);
-	// pt_add_thread(protothread_game_controls);
+	pt_add_thread(protothread_anim1);
     pt_schedule_start ;
 }
 
@@ -766,7 +735,7 @@ int main() {
     // and register our interrupt handler
     pwm_clear_irq(slice_num);
     pwm_set_irq_enabled(slice_num, true);
-    irq_set_exclusive_handler(PWM_IRQ_WRAP, on_pwm_wrap);
+    irq_set_exclusive_handler(PWM_IRQ_WRAP, sensor_irq);
     irq_set_enabled(PWM_IRQ_WRAP, true);
 	
 	// This section configures the period of the PWM signals
@@ -788,8 +757,6 @@ int main() {
     multicore_launch_core1(core1_entry);
 
     // start core 0
-    // pt_add_thread(protothread_serial);
-	// pt_add_thread(protothread_game_controls);
     pt_schedule_start ;
 
 }

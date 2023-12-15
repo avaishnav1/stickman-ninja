@@ -1150,9 +1150,9 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_read_timeout_per_char_us
                 0x00000000       0x48 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .text          0x00000000        0x0 C:\Users\avpc\AppData\Local\Temp\ccIlz6kc.o
- .data          0x00000000        0x0 C:\Users\avpc\AppData\Local\Temp\ccIlz6kc.o
- .bss           0x00000000        0x0 C:\Users\avpc\AppData\Local\Temp\ccIlz6kc.o
+ .text          0x00000000        0x0 C:\Users\avpc\AppData\Local\Temp\cc6ni8Gd.o
+ .data          0x00000000        0x0 C:\Users\avpc\AppData\Local\Temp\cc6ni8Gd.o
+ .bss           0x00000000        0x0 C:\Users\avpc\AppData\Local\Temp\cc6ni8Gd.o
  .data          0x00000000        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libc.a(libc_a-calloc.o)
@@ -1471,11 +1471,11 @@ LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\avpc\AppData\Local\Temp\ccIlz6kc.o
+ .boot2         0x10000000      0x100 C:\Users\avpc\AppData\Local\Temp\cc6ni8Gd.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x7eb8
+.text           0x10000100     0x7eb0
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1539,481 +1539,482 @@ LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb
                 0x100002bc       0x28 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.frame_dummy
                 0x100002e4       0x24 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
- .text.on_pwm_wrap
+ .text.sensor_irq
                 0x10000308      0x408 CMakeFiles/imu_project.dir/stickman_main.c.obj
-                0x10000308                on_pwm_wrap
- .text.protothread_anim0
-                0x10000710     0x13bc CMakeFiles/imu_project.dir/stickman_main.c.obj
+                0x10000308                sensor_irq
+ .text.protothread_anim1
+                0x10000710     0x13b0 CMakeFiles/imu_project.dir/stickman_main.c.obj
  .text.protothread_sched.constprop.0.isra.0
-                0x10001acc       0x68 CMakeFiles/imu_project.dir/stickman_main.c.obj
+                0x10001ac0       0x68 CMakeFiles/imu_project.dir/stickman_main.c.obj
  .text.protothread_sched1.constprop.0.isra.0
-                0x10001b34       0x68 CMakeFiles/imu_project.dir/stickman_main.c.obj
+                0x10001b28       0x68 CMakeFiles/imu_project.dir/stickman_main.c.obj
  .text.core1_entry
-                0x10001b9c       0x84 CMakeFiles/imu_project.dir/stickman_main.c.obj
-                0x10001b9c                core1_entry
+                0x10001b90       0x84 CMakeFiles/imu_project.dir/stickman_main.c.obj
+                0x10001b90                core1_entry
  .text.startup.main
-                0x10001c20      0x1a4 CMakeFiles/imu_project.dir/stickman_main.c.obj
-                0x10001c20                main
- .text.initVGA  0x10001dc4      0x204 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x10001dc4                initVGA
+                0x10001c14      0x1a4 CMakeFiles/imu_project.dir/stickman_main.c.obj
+                0x10001c14                main
+ .text.initVGA  0x10001db8      0x204 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10001db8                initVGA
  .text.drawVLine
-                0x10001fc8       0xa0 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x10001fc8                drawVLine
+                0x10001fbc       0xa0 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10001fbc                drawVLine
  .text.drawHLine
-                0x10002068       0xa4 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x10002068                drawHLine
+                0x1000205c       0xa4 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x1000205c                drawHLine
  .text.drawLine
-                0x1000210c      0x1dc CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x1000210c                drawLine
+                0x10002100      0x1dc CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10002100                drawLine
  .text.drawRect
-                0x100022e8      0x27c CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x100022e8                drawRect
+                0x100022dc      0x27c CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x100022dc                drawRect
  .text.drawCircle
-                0x10002564      0x42c CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x10002564                drawCircle
+                0x10002558      0x42c CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10002558                drawCircle
  .text.fillRect
-                0x10002990       0xe0 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x10002990                fillRect
+                0x10002984       0xe0 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10002984                fillRect
  .text.drawChar
-                0x10002a70      0x300 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x10002a70                drawChar
+                0x10002a64      0x300 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10002a64                drawChar
  .text.setCursor
-                0x10002d70       0x14 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x10002d70                setCursor
+                0x10002d64       0x14 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10002d64                setCursor
  .text.setTextSize
-                0x10002d84       0x14 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x10002d84                setTextSize
+                0x10002d78       0x14 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10002d78                setTextSize
  .text.setTextColor2
-                0x10002d98       0x14 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x10002d98                setTextColor2
+                0x10002d8c       0x14 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10002d8c                setTextColor2
  .text.writeString
-                0x10002dac       0xd0 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x10002dac                writeString
+                0x10002da0       0xd0 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10002da0                writeString
  .text.mpu6050_reset
-                0x10002e7c       0xf0 CMakeFiles/imu_project.dir/mpu6050.c.obj
-                0x10002e7c                mpu6050_reset
+                0x10002e70       0xf0 CMakeFiles/imu_project.dir/mpu6050.c.obj
+                0x10002e70                mpu6050_reset
  .text.mpu6050_read_raw0
-                0x10002f6c      0x154 CMakeFiles/imu_project.dir/mpu6050.c.obj
-                0x10002f6c                mpu6050_read_raw0
+                0x10002f60      0x154 CMakeFiles/imu_project.dir/mpu6050.c.obj
+                0x10002f60                mpu6050_read_raw0
  .text.mpu6050_read_raw1
-                0x100030c0      0x154 CMakeFiles/imu_project.dir/mpu6050.c.obj
-                0x100030c0                mpu6050_read_raw1
+                0x100030b4      0x154 CMakeFiles/imu_project.dir/mpu6050.c.obj
+                0x100030b4                mpu6050_read_raw1
  .text.gpio_set_function
-                0x10003214       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10003214                gpio_set_function
+                0x10003208       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10003208                gpio_set_function
  .text.gpio_set_pulls
-                0x10003244       0x24 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10003244                gpio_set_pulls
+                0x10003238       0x24 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10003238                gpio_set_pulls
  .text.gpio_init
-                0x10003268       0x3c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10003268                gpio_init
+                0x1000325c       0x3c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000325c                gpio_init
  .text.running_on_fpga
-                0x100032a4       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100032a4                running_on_fpga
+                0x10003298       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10003298                running_on_fpga
  .text.hw_claim_lock
-                0x100032b4       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100032b4                hw_claim_lock
+                0x100032a8       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100032a8                hw_claim_lock
  .text.hw_claim_unlock
-                0x100032cc       0x14 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100032cc                hw_claim_unlock
+                0x100032c0       0x14 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100032c0                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x100032e0       0x44 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100032e0                hw_claim_or_assert
+                0x100032d4       0x44 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100032d4                hw_claim_or_assert
  .text.spin_locks_reset
-                0x10003324       0x1c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10003324                spin_locks_reset
+                0x10003318       0x1c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10003318                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10003340       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10003340                next_striped_spin_lock_num
+                0x10003334       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10003334                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x10003358       0x24 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10003358                irq_set_enabled
+                0x1000334c       0x24 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000334c                irq_set_enabled
  .text.irq_is_enabled
-                0x1000337c       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000337c                irq_is_enabled
+                0x10003370       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10003370                irq_is_enabled
  .text.irq_get_vtable_handler
-                0x10003394       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10003394                irq_get_vtable_handler
+                0x10003388       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10003388                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x100033a4       0x54 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100033a4                irq_set_exclusive_handler
+                0x10003398       0x54 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10003398                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x100033f8      0x1c4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100033f8                irq_remove_handler
+                0x100033ec      0x1c4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100033ec                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x100035bc       0xb4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100035bc                irq_add_tail_to_free_list
+                0x100035b0       0xb4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100035b0                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10003670       0x24 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10003670                irq_init_priorities
+                0x10003664       0x24 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10003664                irq_init_priorities
  .text.lock_init
-                0x10003694       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x10003694                lock_init
+                0x10003688       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10003688                lock_init
  .text.mutex_init
-                0x100036a4       0x1c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100036a4                mutex_init
+                0x10003698       0x1c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10003698                mutex_init
  .text.recursive_mutex_init
-                0x100036c0       0x1c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100036c0                recursive_mutex_init
+                0x100036b4       0x1c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100036b4                recursive_mutex_init
  .text.timer_pool_entry_comparator
-                0x100036dc       0x34 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100036dc                timer_pool_entry_comparator
+                0x100036d0       0x34 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100036d0                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x10003710       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10003704       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10003740       0xf8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10003734       0xf8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10003838      0x1c0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000382c      0x1c0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x100039f8       0x6c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100039f8                alarm_pool_init_default
+                0x100039ec       0x6c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100039ec                alarm_pool_init_default
  .text.alarm_pool_add_alarm_at
-                0x10003a64      0x17c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10003a64                alarm_pool_add_alarm_at
+                0x10003a58      0x17c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10003a58                alarm_pool_add_alarm_at
  .text.best_effort_wfe_or_timeout
-                0x10003be0       0xcc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10003be0                best_effort_wfe_or_timeout
+                0x10003bd4       0xcc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10003bd4                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10003cac       0xbc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10003ca0       0xbc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10003d68       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10003d68                hardware_alarm_claim
+                0x10003d5c       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10003d5c                hardware_alarm_claim
  .text.time_us_64
-                0x10003d80       0x14 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10003d80                time_us_64
+                0x10003d74       0x14 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10003d74                time_us_64
  .text.busy_wait_us
-                0x10003d94       0x68 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10003d94                busy_wait_us
+                0x10003d88       0x68 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10003d88                busy_wait_us
  .text.hardware_alarm_set_callback
-                0x10003dfc       0x8c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10003dfc                hardware_alarm_set_callback
+                0x10003df0       0x8c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10003df0                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10003e88       0xd0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10003e88                hardware_alarm_set_target
+                0x10003e7c       0xd0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10003e7c                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10003f58       0x3c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10003f58                hardware_alarm_cancel
+                0x10003f4c       0x3c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10003f4c                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x10003f94       0x58 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10003f88       0x58 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10003fec       0x3c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10003fec                ph_post_alloc_init
+                0x10003fe0       0x3c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10003fe0                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10004028       0x8c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10004028                ph_merge_two_pass
+                0x1000401c       0x8c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000401c                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x100040b4      0x100 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100040a8      0x100 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x100041b4      0x104 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100041b4                ph_remove_head
+                0x100041a8      0x104 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100041a8                ph_remove_head
  .text.ph_remove_and_free_node
-                0x100042b8       0x78 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100042b8                ph_remove_and_free_node
+                0x100042ac       0x78 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100042ac                ph_remove_and_free_node
  .text.uart_init
-                0x10004330      0x188 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10004330                uart_init
+                0x10004324      0x188 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10004324                uart_init
  .text.clocks_init
-                0x100044b8      0x2c8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100044b8                clocks_init
+                0x100044ac      0x2c8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100044ac                clocks_init
  .text.clock_get_hz
-                0x10004780        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10004780                clock_get_hz
+                0x10004774        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10004774                clock_get_hz
  .text.pll_init
-                0x1000478c       0xa0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x1000478c                pll_init
+                0x10004780       0xa0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10004780                pll_init
  .text.watchdog_start_tick
-                0x1000482c       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x1000482c                watchdog_start_tick
+                0x10004820       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10004820                watchdog_start_tick
  .text.xosc_init
-                0x1000483c       0x28 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x1000483c                xosc_init
+                0x10004830       0x28 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10004830                xosc_init
  .text.runtime_init
-                0x10004864       0xec CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10004864                runtime_init
- .text._exit    0x10004950        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10004950                _exit
- .text.exit     0x10004954        0x8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10004954                exit
- .text.panic    0x1000495c       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000495c                panic
+                0x10004858       0xec CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004858                runtime_init
+ .text._exit    0x10004944        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004944                _exit
+ .text.exit     0x10004948        0x8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004948                exit
+ .text.panic    0x10004950       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004950                panic
  .text.hard_assertion_failure
-                0x1000498c        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000498c                hard_assertion_failure
+                0x10004980        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004980                hard_assertion_failure
  .text._out_buffer
-                0x10004998        0x8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000498c        0x8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_null
-                0x100049a0        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004994        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x100049a4       0x90 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004998       0x90 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10004a34      0x208 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004a28      0x208 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x10004c3c       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10004c4c      0x464 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x100050b0      0x3c4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004c30       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x10004c40      0x464 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x100050a4      0x3c4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10005474      0xc18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10005468      0xc18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_sprintf
-                0x1000608c       0x2c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x1000608c                __wrap_sprintf
+                0x10006080       0x2c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10006080                __wrap_sprintf
  .text.weak_raw_vprintf
-                0x100060b8       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100060b8                weak_raw_vprintf
- .text          0x100060e8       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x100060ac       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100060ac                weak_raw_vprintf
+ .text          0x100060dc       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x100060f8       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100060f8                rom_func_lookup
+                0x100060ec       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100060ec                rom_func_lookup
  .text.rom_data_lookup
-                0x10006108       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10006108                rom_data_lookup
+                0x100060fc       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100060fc                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10006118       0x44 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10006118                rom_funcs_lookup
+                0x1000610c       0x44 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x1000610c                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x1000615c       0x50 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x1000615c                __wrap___aeabi_idivmod
-                0x1000615c                divmod_s32s32
-                0x1000615c                div_s32s32
-                0x1000615c                __wrap___aeabi_idiv
-                0x10006164                divmod_s32s32_unsafe
-                0x10006190                divmod_s32s32_savestate
+                0x10006150       0x50 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10006150                __wrap___aeabi_idivmod
+                0x10006150                divmod_s32s32
+                0x10006150                div_s32s32
+                0x10006150                __wrap___aeabi_idiv
+                0x10006158                divmod_s32s32_unsafe
+                0x10006184                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x100061ac       0x4c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100061ac                __wrap___aeabi_uidiv
-                0x100061ac                __wrap___aeabi_uidivmod
-                0x100061ac                div_u32u32
-                0x100061ac                divmod_u32u32
-                0x100061b4                divmod_u32u32_unsafe
-                0x100061dc                divmod_u32u32_savestate
+                0x100061a0       0x4c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100061a0                __wrap___aeabi_uidiv
+                0x100061a0                __wrap___aeabi_uidivmod
+                0x100061a0                div_u32u32
+                0x100061a0                divmod_u32u32
+                0x100061a8                divmod_u32u32_unsafe
+                0x100061d0                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x100061f8      0x424 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100061f8                div_s64s64
-                0x100061f8                divmod_s64s64
-                0x100061f8                __wrap___aeabi_ldivmod
-                0x10006228                divmod_u64u64
-                0x10006228                div_u64u64
-                0x10006228                __wrap___aeabi_uldivmod
-                0x10006238                divmod_u64u64_savestate
-                0x10006258                divmod_s64s64_unsafe
-                0x100062e0                divmod_u64u64_unsafe
+                0x100061ec      0x424 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100061ec                div_s64s64
+                0x100061ec                divmod_s64s64
+                0x100061ec                __wrap___aeabi_ldivmod
+                0x1000621c                divmod_u64u64
+                0x1000621c                div_u64u64
+                0x1000621c                __wrap___aeabi_uldivmod
+                0x1000622c                divmod_u64u64_savestate
+                0x1000624c                divmod_s64s64_unsafe
+                0x100062d4                divmod_u64u64_unsafe
  .text.push_r8_r11
-                0x1000661c        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000661c                push_r8_r11
+                0x10006610        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10006610                push_r8_r11
  .text.pop_r8_r11
-                0x10006628        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10006628                pop_r8_r11
+                0x1000661c        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000661c                pop_r8_r11
  .text.__wrap___aeabi_darithmetic
-                0x10006634       0x80 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10006634                __wrap___aeabi_drsub
-                0x1000663a                __wrap___aeabi_dsub
-                0x1000664c                __wrap___aeabi_dadd
-                0x1000665e                __wrap___aeabi_ddiv
-                0x1000669a                __wrap___aeabi_dmul
+                0x10006628       0x80 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10006628                __wrap___aeabi_drsub
+                0x1000662e                __wrap___aeabi_dsub
+                0x10006640                __wrap___aeabi_dadd
+                0x10006652                __wrap___aeabi_ddiv
+                0x1000668e                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x100066b4       0x6c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100066b4                __wrap___aeabi_cdrcmple
-                0x100066c4                __wrap___aeabi_cdcmpeq
-                0x100066c4                __wrap___aeabi_cdcmple
+                0x100066a8       0x6c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100066a8                __wrap___aeabi_cdrcmple
+                0x100066b8                __wrap___aeabi_cdcmpeq
+                0x100066b8                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10006720        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10006720                __wrap___aeabi_dcmplt
+                0x10006714        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10006714                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmpge
-                0x1000672c       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000672c                __wrap___aeabi_dcmpge
+                0x10006720       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10006720                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x1000673c        0xa CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000673c                __wrap___aeabi_dcmpgt
+                0x10006730        0xa CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10006730                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10006746       0x1c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10006746                __wrap___aeabi_dcmpun
- *fill*         0x10006762        0x2 
+                0x1000673a       0x1c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000673a                __wrap___aeabi_dcmpun
+ *fill*         0x10006756        0x2 
  .text.__wrap___aeabi_i2d
-                0x10006764       0x38 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10006764                __wrap___aeabi_ui2d
-                0x1000676c                __wrap___aeabi_i2d
+                0x10006758       0x38 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10006758                __wrap___aeabi_ui2d
+                0x10006760                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x1000679c       0x48 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000679c                double2int_z
-                0x1000679c                __wrap___aeabi_d2iz
+                0x10006790       0x48 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10006790                double2int_z
+                0x10006790                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x100067e4       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100067e4                __wrap___aeabi_d2uiz
-                0x100067e4                double2uint
+                0x100067d8       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100067d8                __wrap___aeabi_d2uiz
+                0x100067d8                double2uint
  .text.__wrap_atan2
-                0x100067fc       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100067fc                __wrap_atan2
+                0x100067f0       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100067f0                __wrap_atan2
  .text.__aeabi_double_init
-                0x10006814       0x98 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10006814                __aeabi_double_init
+                0x10006808       0x98 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10006808                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x100068ac       0x2c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100068ac                double_table_shim_on_use_helper
+                0x100068a0       0x2c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100068a0                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x100068d8       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100068d8                drsub_shim
-                0x100068de                dsub_shim
+                0x100068cc       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100068cc                drsub_shim
+                0x100068d2                dsub_shim
  .text.dadd_shim
-                0x100068e8      0x15c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100068e8                dadd_shim
+                0x100068dc      0x15c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100068dc                dadd_shim
  .text.dmul_shim
-                0x10006a44      0x15c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10006a44                dmul_shim
+                0x10006a38      0x15c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10006a38                dmul_shim
  .text.ddiv_shim
-                0x10006ba0      0x1b0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10006ba0                ddiv_shim
+                0x10006b94      0x1b0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10006b94                ddiv_shim
  .text.dcordic_vec_step
-                0x10006d50        0xe CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10006d50                dcordic_vec_step
+                0x10006d44        0xe CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10006d44                dcordic_vec_step
  .text.dcordic_rot_step
-                0x10006d5e       0x76 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10006d5e                dcordic_rot_step
+                0x10006d52       0x76 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10006d52                dcordic_rot_step
  .text.double2uint_shim
-                0x10006dd4        0xe CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10006dd4                double2uint_shim
-                0x10006dd6                double2ufix_shim
+                0x10006dc8        0xe CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10006dc8                double2uint_shim
+                0x10006dca                double2ufix_shim
  .text.double2int64_shim
-                0x10006de2       0x1a CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10006de2                double2int64_shim
-                0x10006de4                double2fix64_shim
+                0x10006dd6       0x1a CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10006dd6                double2int64_shim
+                0x10006dd8                double2fix64_shim
  .text.double2uint64_shim
-                0x10006dfc       0x70 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10006dfc                double2uint64_shim
-                0x10006dfe                double2ufix64_shim
-                0x10006e1e                d2fix_a
+                0x10006df0       0x70 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10006df0                double2uint64_shim
+                0x10006df2                double2ufix64_shim
+                0x10006e12                d2fix_a
  .text.x2double_shims
-                0x10006e6c       0x90 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10006e6c                uint2double_shim
-                0x10006e6e                ufix2double_shim
-                0x10006e74                int2double_shim
-                0x10006e76                fix2double_shim
-                0x10006e7c                uint642double_shim
-                0x10006e7e                ufix642double_shim
-                0x10006e84                int642double_shim
-                0x10006e86                fix642double_shim
+                0x10006e60       0x90 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10006e60                uint2double_shim
+                0x10006e62                ufix2double_shim
+                0x10006e68                int2double_shim
+                0x10006e6a                fix2double_shim
+                0x10006e70                uint642double_shim
+                0x10006e72                ufix642double_shim
+                0x10006e78                int642double_shim
+                0x10006e7a                fix642double_shim
  .text.dunpacks
-                0x10006efc       0x3c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10006efc                dunpacks
- .text.dreduce  0x10006f38       0x82 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10006f38                dreduce
- *fill*         0x10006fba        0x2 
+                0x10006ef0       0x3c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10006ef0                dunpacks
+ .text.dreduce  0x10006f2c       0x82 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10006f2c                dreduce
+ *fill*         0x10006fae        0x2 
  .text.dtrig_guts
-                0x10006fbc      0x2ec CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10007094                datan2_shim
+                0x10006fb0      0x2ec CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10007088                datan2_shim
  .text.__aeabi_lmul
-                0x100072a8       0x32 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x100072a8                __wrap___aeabi_lmul
- *fill*         0x100072da        0x2 
+                0x1000729c       0x32 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x1000729c                __wrap___aeabi_lmul
+ *fill*         0x100072ce        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x100072dc       0x48 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100072dc                __wrap___aeabi_frsub
-                0x100072e2                __wrap___aeabi_fsub
-                0x100072e8                __wrap___aeabi_fadd
-                0x100072ee                __wrap___aeabi_fdiv
-                0x10007316                __wrap___aeabi_fmul
+                0x100072d0       0x48 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100072d0                __wrap___aeabi_frsub
+                0x100072d6                __wrap___aeabi_fsub
+                0x100072dc                __wrap___aeabi_fadd
+                0x100072e2                __wrap___aeabi_fdiv
+                0x1000730a                __wrap___aeabi_fmul
  .text.__wrap___aeabi_i2f
-                0x10007324       0x44 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10007324                __wrap___aeabi_i2f
+                0x10007318       0x44 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10007318                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2iz
-                0x10007368       0x4e CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10007368                float2int_z
-                0x10007368                __wrap___aeabi_f2iz
- *fill*         0x100073b6        0x2 
+                0x1000735c       0x4e CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x1000735c                float2int_z
+                0x1000735c                __wrap___aeabi_f2iz
+ *fill*         0x100073aa        0x2 
  .text.float2int
-                0x100073b8       0x14 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100073b8                float2int
+                0x100073ac       0x14 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100073ac                float2int
  .text.__wrap___aeabi_f2uiz
-                0x100073cc        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100073cc                __wrap___aeabi_f2uiz
+                0x100073c0        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100073c0                __wrap___aeabi_f2uiz
  .text.__wrap___aeabi_f2d
-                0x100073d8       0x14 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100073d8                __wrap___aeabi_f2d
+                0x100073cc       0x14 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100073cc                __wrap___aeabi_f2d
  .text.__aeabi_float_init
-                0x100073ec       0x64 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x100073ec                __aeabi_float_init
+                0x100073e0       0x64 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100073e0                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10007450       0x2c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10007450                float_table_shim_on_use_helper
+                0x10007444       0x2c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10007444                float_table_shim_on_use_helper
  .text.float232_shims
-                0x1000747c       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x1000747c                float2int_shim
-                0x1000747e                float2fix_shim
+                0x10007470       0x18 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10007470                float2int_shim
+                0x10007472                float2fix_shim
  .text.float2double_shim
-                0x10007494       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10007494                float2double_shim
- .text          0x100074c4       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100074c4                __aeabi_mem_init
- .text.memcpy   0x100074d4        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100074d4                __wrap_memcpy
-                0x100074d4                __wrap___aeabi_memcpy
+                0x10007488       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10007488                float2double_shim
+ .text          0x100074b8       0x10 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100074b8                __aeabi_mem_init
+ .text.memcpy   0x100074c8        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100074c8                __wrap_memcpy
+                0x100074c8                __wrap___aeabi_memcpy
  .text.stdio_out_chars_crlf
-                0x100074e0       0x94 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100074d4       0x94 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10007574       0x98 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10007574                __wrap_putchar
+                0x10007568       0x98 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10007568                __wrap_putchar
  .text.__wrap_puts
-                0x1000760c       0xe0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000760c                __wrap_puts
+                0x10007600       0xe0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10007600                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x100076ec       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100076ec                stdio_set_driver_enabled
+                0x100076e0       0x30 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100076e0                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x1000771c        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000771c                stdio_init_all
+                0x10007710        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10007710                stdio_init_all
  .text.stdio_uart_out_chars
-                0x10007728       0x4c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000771c       0x4c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x10007774       0x90 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10007774                stdio_uart_in_chars
+                0x10007768       0x90 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10007768                stdio_uart_in_chars
  .text.on_uart_rx
-                0x10007804       0x28 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100077f8       0x28 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x1000782c       0x8c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10007820       0x8c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init
-                0x100078b8       0x48 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100078b8                stdio_uart_init
+                0x100078ac       0x48 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100078ac                stdio_uart_init
  .text.startup.boot_double_tap_check
-                0x10007900       0x60 CMakeFiles/imu_project.dir/b28a1d263c5371011c097b68300cd0fe/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
+                0x100078f4       0x60 CMakeFiles/imu_project.dir/b28a1d263c5371011c097b68300cd0fe/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
  .text.core1_trampoline
-                0x10007960        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007954        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .text.core1_wrapper
-                0x10007964        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x10007964                core1_wrapper
+                0x10007958        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007958                core1_wrapper
  .text.multicore_reset_core1
-                0x10007970       0x24 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x10007970                multicore_reset_core1
+                0x10007964       0x24 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007964                multicore_reset_core1
  .text.multicore_launch_core1_raw
-                0x10007994       0x84 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x10007994                multicore_launch_core1_raw
+                0x10007988       0x84 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007988                multicore_launch_core1_raw
  .text.multicore_launch_core1
-                0x10007a18       0x58 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x10007a18                multicore_launch_core1
+                0x10007a0c       0x58 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007a0c                multicore_launch_core1
  .text.pio_add_program
-                0x10007a70       0xf0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x10007a70                pio_add_program
+                0x10007a64       0xf0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10007a64                pio_add_program
  .text.pio_sm_set_consecutive_pindirs
-                0x10007b60       0xa8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x10007b60                pio_sm_set_consecutive_pindirs
+                0x10007b54       0xa8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10007b54                pio_sm_set_consecutive_pindirs
  .text.pio_sm_init
-                0x10007c08       0x98 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x10007c08                pio_sm_init
+                0x10007bfc       0x98 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x10007bfc                pio_sm_init
  .text.i2c_set_baudrate
-                0x10007ca0       0xc4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007ca0                i2c_set_baudrate
+                0x10007c94       0xc4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10007c94                i2c_set_baudrate
  .text.i2c_init
-                0x10007d64       0x54 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007d64                i2c_init
+                0x10007d58       0x54 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10007d58                i2c_init
  .text.i2c_write_blocking
-                0x10007db8       0xd0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007db8                i2c_write_blocking
+                0x10007dac       0xd0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10007dac                i2c_write_blocking
  .text.i2c_read_blocking
-                0x10007e88       0x90 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10007e88                i2c_read_blocking
- .text.strlen   0x10007f18       0x5c c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libc.a(libc_a-strlen-stub.o)
-                0x10007f18                strlen
+                0x10007e7c       0x90 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10007e7c                i2c_read_blocking
+ .text.strlen   0x10007f0c       0x5c c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libc.a(libc_a-strlen-stub.o)
+                0x10007f0c                strlen
  *(.fini)
- .fini          0x10007f74        0x4 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crti.o
-                0x10007f74                _fini
- .fini.__stub   0x10007f78       0x40 linker stubs
+ .fini          0x10007f68        0x4 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crti.o
+                0x10007f68                _fini
+ *fill*         0x10007f6c        0x4 
+ .fini.__stub   0x10007f70       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2025,131 +2026,131 @@ LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10007fb8        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10007fb8                        . = ALIGN (0x4)
+ .eh_frame      0x10007fb0        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10007fb0                        . = ALIGN (0x4)
 
-.glue_7         0x10007fb8        0x0
- .glue_7        0x10007fb8        0x0 linker stubs
+.glue_7         0x10007fb0        0x0
+ .glue_7        0x10007fb0        0x0 linker stubs
 
-.glue_7t        0x10007fb8        0x0
- .glue_7t       0x10007fb8        0x0 linker stubs
+.glue_7t        0x10007fb0        0x0
+ .glue_7t       0x10007fb0        0x0 linker stubs
 
-.vfp11_veneer   0x10007fb8        0x0
- .vfp11_veneer  0x10007fb8        0x0 linker stubs
+.vfp11_veneer   0x10007fb0        0x0
+ .vfp11_veneer  0x10007fb0        0x0 linker stubs
 
-.v4_bx          0x10007fb8        0x0
- .v4_bx         0x10007fb8        0x0 linker stubs
+.v4_bx          0x10007fb0        0x0
+ .v4_bx         0x10007fb0        0x0 linker stubs
 
-.iplt           0x10007fb8        0x0
- .iplt          0x10007fb8        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10007fb0        0x0
+ .iplt          0x10007fb0        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10007fb8      0xa08
+.rodata         0x10007fb0      0xa08
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
- .rodata.protothread_anim0.str1.4
-                0x10007fb8      0x16c CMakeFiles/imu_project.dir/stickman_main.c.obj
- .rodata.protothread_anim0
-                0x10008124       0x18 CMakeFiles/imu_project.dir/stickman_main.c.obj
- .rodata.font   0x1000813c      0x4fb CMakeFiles/imu_project.dir/vga_graphics.c.obj
- *fill*         0x10008637        0x1 
+ .rodata.protothread_anim1.str1.4
+                0x10007fb0      0x16c CMakeFiles/imu_project.dir/stickman_main.c.obj
+ .rodata.protothread_anim1
+                0x1000811c       0x18 CMakeFiles/imu_project.dir/stickman_main.c.obj
+ .rodata.font   0x10008134      0x4fb CMakeFiles/imu_project.dir/vga_graphics.c.obj
+ *fill*         0x1000862f        0x1 
  .rodata.rgb_program
-                0x10008638        0x6 CMakeFiles/imu_project.dir/vga_graphics.c.obj
- *fill*         0x1000863e        0x2 
+                0x10008630        0x6 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+ *fill*         0x10008636        0x2 
  .rodata.rgb_program_instructions
-                0x10008640       0x12 CMakeFiles/imu_project.dir/vga_graphics.c.obj
- *fill*         0x10008652        0x2 
+                0x10008638       0x12 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+ *fill*         0x1000864a        0x2 
  .rodata.vsync_program
-                0x10008654        0x6 CMakeFiles/imu_project.dir/vga_graphics.c.obj
- *fill*         0x1000865a        0x2 
+                0x1000864c        0x6 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+ *fill*         0x10008652        0x2 
  .rodata.vsync_program_instructions
-                0x1000865c       0x1c CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x10008654       0x1c CMakeFiles/imu_project.dir/vga_graphics.c.obj
  .rodata.hsync_program
-                0x10008678        0x6 CMakeFiles/imu_project.dir/vga_graphics.c.obj
- *fill*         0x1000867e        0x2 
+                0x10008670        0x6 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+ *fill*         0x10008676        0x2 
  .rodata.hsync_program_instructions
-                0x10008680       0x12 CMakeFiles/imu_project.dir/vga_graphics.c.obj
- *fill*         0x10008692        0x2 
+                0x10008678       0x12 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+ *fill*         0x1000868a        0x2 
  .rodata.hardware_alarm_claim.str1.4
-                0x10008694       0x22 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x100086b6        0x2 
+                0x1000868c       0x22 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x100086ae        0x2 
  .rodata.panic.str1.4
-                0x100086b8       0x12 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x100086ca        0x2 
+                0x100086b0       0x12 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x100086c2        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x100086cc        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100086c4        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x100086d8       0x15 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x100086ed        0x3 
+                0x100086d0       0x15 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x100086e5        0x3 
  .rodata._vsnprintf
-                0x100086f0      0x19c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x1000888c        0x4 
+                0x100086e8      0x19c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10008884        0x4 
  .rodata.pow10.0
-                0x10008890       0x50 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10008888       0x50 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x100088e0       0x40 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100088d8       0x40 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10008920        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008918        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x1000892c        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008924        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10008938        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008930        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10008944        0x2 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10008946        0x2 
+                0x1000893c        0x2 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x1000893e        0x2 
  .rodata.str1.4
-                0x10008948       0x2c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10008940       0x2c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_33.4
-                0x10008974        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000896c        0xc CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_34.5
-                0x10008980        0x8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10008978        0x8 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.str1.4
-                0x10008988       0x18 CMakeFiles/imu_project.dir/b28a1d263c5371011c097b68300cd0fe/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
+                0x10008980       0x18 CMakeFiles/imu_project.dir/b28a1d263c5371011c097b68300cd0fe/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
  .rodata.__bi_35
-                0x100089a0        0xc CMakeFiles/imu_project.dir/b28a1d263c5371011c097b68300cd0fe/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
+                0x10008998        0xc CMakeFiles/imu_project.dir/b28a1d263c5371011c097b68300cd0fe/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
  .rodata.pio_add_program.str1.4
-                0x100089ac       0x11 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-                0x100089c0                        . = ALIGN (0x4)
- *fill*         0x100089bd        0x3 
+                0x100089a4       0x11 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+                0x100089b8                        . = ALIGN (0x4)
+ *fill*         0x100089b5        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100089c0                        . = ALIGN (0x4)
+                0x100089b8                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100089c0                        __exidx_start = .
+                0x100089b8                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100089c0                        __exidx_end = .
-                0x100089c0                        . = ALIGN (0x4)
-                0x100089c0                        __binary_info_start = .
+                0x100089b8                        __exidx_end = .
+                0x100089b8                        . = ALIGN (0x4)
+                0x100089b8                        __binary_info_start = .
 
-.binary_info    0x100089c0       0x28
+.binary_info    0x100089b8       0x28
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x100089c0        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100089b8        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x100089c4        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100089bc        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x100089c8        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100089c0        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x100089cc        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100089c4        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x100089d0        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100089c8        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x100089d4        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100089cc        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr22
-                0x100089d8        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100089d0        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr35
-                0x100089dc        0x4 CMakeFiles/imu_project.dir/b28a1d263c5371011c097b68300cd0fe/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
+                0x100089d4        0x4 CMakeFiles/imu_project.dir/b28a1d263c5371011c097b68300cd0fe/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr34
-                0x100089e0        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100089d8        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr33
-                0x100089e4        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100089e8                        __binary_info_end = .
+                0x100089dc        0x4 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100089e0                        __binary_info_end = .
 
-.rel.dyn        0x100089e8        0x0
- .rel.iplt      0x100089e8        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x100089e8                        . = ALIGN (0x4)
+.rel.dyn        0x100089e0        0x0
+ .rel.iplt      0x100089e0        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x100089e0                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2158,7 +2159,7 @@ LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb
                 0x20000000       0xc0 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x1d0 load address 0x100089e8
+.data           0x200000c0      0x1d0 load address 0x100089e0
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2253,40 +2254,40 @@ LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb
  *(.jcr)
                 0x20000290                        . = ALIGN (0x4)
                 0x20000290                        __data_end__ = .
-                0x100089e8                        __etext = LOADADDR (.data)
+                0x100089e0                        __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x20000290        0x0 load address 0x10008bb8
+                0x20000290        0x0 load address 0x10008bb0
  .tm_clone_table
                 0x20000290        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000290        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20000290        0x0 load address 0x10008bb8
+.igot.plt       0x20000290        0x0 load address 0x10008bb0
  .igot.plt      0x20000290        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000290        0xc load address 0x10008bb8
+                0x20000290        0xc load address 0x10008bb0
                 0x20000290                        . = ALIGN (0x4)
  *(.uninitialized_data*)
  .uninitialized_data.magic_location
                 0x20000290        0xc CMakeFiles/imu_project.dir/b28a1d263c5371011c097b68300cd0fe/ece4760/Pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset/pico_bootsel_via_double_reset.c.obj
 
-.scratch_x      0x20040000        0x0 load address 0x10008bb8
+.scratch_x      0x20040000        0x0 load address 0x10008bb0
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10008bb8                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10008bb0                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10008bb8
+.scratch_y      0x20041000        0x0 load address 0x10008bb0
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10008bb8                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10008bb0                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x200002a0    0x25f20
+.bss            0x200002a0    0x25f1c
                 0x200002a0                        . = ALIGN (0x4)
                 0x200002a0                        __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -2451,29 +2452,26 @@ LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb
  .bss.move_right1
                 0x200261b7        0x1 CMakeFiles/imu_project.dir/stickman_main.c.obj
                 0x200261b7                move_right1
- .bss.run       0x200261b8        0x1 CMakeFiles/imu_project.dir/stickman_main.c.obj
-                0x200261b8                run
  .bss.textbgcolor
-                0x200261b9        0x1 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x200261b9                textbgcolor
+                0x200261b8        0x1 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x200261b8                textbgcolor
  .bss.textcolor
-                0x200261ba        0x1 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x200261ba                textcolor
+                0x200261b9        0x1 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x200261b9                textcolor
  .bss.timer_callbacks_pending
-                0x200261bb        0x1 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .bss.wrap      0x200261bc        0x1 CMakeFiles/imu_project.dir/vga_graphics.c.obj
-                0x200261bc                wrap
+                0x200261ba        0x1 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .bss.wrap      0x200261bb        0x1 CMakeFiles/imu_project.dir/vga_graphics.c.obj
+                0x200261bb                wrap
  *(COMMON)
-                0x200261c0                        . = ALIGN (0x4)
- *fill*         0x200261bd        0x3 
-                0x200261c0                        __bss_end__ = .
+                0x200261bc                        . = ALIGN (0x4)
+                0x200261bc                        __bss_end__ = .
 
-.heap           0x200261c0      0x800
-                0x200261c0                        __end__ = .
-                0x200261c0                        end = __end__
+.heap           0x200261bc      0x800
+                0x200261bc                        __end__ = .
+                0x200261bc                        end = __end__
  *(.heap*)
- .heap          0x200261c0      0x800 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x200269c0                        __HeapLimit = .
+ .heap          0x200261bc      0x800 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x200269bc                        __HeapLimit = .
 
 .stack1_dummy   0x20040000      0x800
  *(.stack1*)
@@ -2483,8 +2481,8 @@ LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10008bb8        0x0
-                0x10008bb8                        PROVIDE (__flash_binary_end = .)
+.flash_end      0x10008bb0        0x0
+                0x10008bb0                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2547,7 +2545,7 @@ LOAD CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/P
 LOAD CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 LOAD CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 LOAD CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-LOAD C:\Users\avpc\AppData\Local\Temp\ccIlz6kc.o
+LOAD C:\Users\avpc\AppData\Local\Temp\cc6ni8Gd.o
 LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2653,7 +2651,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000006c6       0x2c CMakeFiles/imu_project.dir/D_/akshati_laptop/cornell/2023-24/sem1/ece4760/Pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
-                0x000006f2       0x22 C:\Users\avpc\AppData\Local\Temp\ccIlz6kc.o
+                0x000006f2       0x22 C:\Users\avpc\AppData\Local\Temp\cc6ni8Gd.o
  .ARM.attributes
                 0x00000714       0x1e c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
